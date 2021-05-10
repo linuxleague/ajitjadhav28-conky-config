@@ -9,7 +9,7 @@ Conky configurations for laptop with following features:
 - all drives mounted in /media/$user/* are shown (default max 6)   
 
 This is fork of [andrea-rosa/conky-config](https://github.com/andrea-rosa/conky-config) repository.
-It is modified according to my needs for Dell Inspiron 5520 laptop.
+It is modified according to my needs for Lenovo Legion 5, Ryzen Model laptop.
 Thanks to [andrea-rosa](https://github.com/andrea-rosa) for this beautiful configuration and [ritave](https://github.com/ritave/xeventbind) for xeventbind.
 
 # Install
