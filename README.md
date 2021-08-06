@@ -5,6 +5,7 @@ Conky configurations for laptop with following features:
 - Laptop-Desktop Mode Indicator
 - battery indicator with capacity
 - CPU, RAM, HDD, Network info
+- NVIDIA GPU Info
 - top 5 cpu hungry processes
 - all drives mounted in /media/$user/* are shown (default max 6)   
 
