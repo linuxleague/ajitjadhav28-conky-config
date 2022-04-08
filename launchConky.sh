@@ -7,6 +7,10 @@ CURRENT_HEIGHT=$( xrandr | grep -o 'current [0-9]* x [0-9]*'| grep -o '[0-9]*' |
 # Get Primary monitor resolution
 PRIMARY=$( xrandr | grep -o ' connected primary [0-9]*x[0-9]*+[0-9]*+[0-9]*' | grep -o -P --regexp='(?! connected primary [0-9]*x[0-9]*+)([0-9]*+[0-9]*)' )
 
+if [ -n $PRIMARY ]; then
+	PRIMARY=$( xrandr | grep -o ' connected [0-9]*x[0-9]*+[0-9]*+[0-9]*' | grep -o -P --regexp='(?! connected [0-9]*x[0-9]*+)([0-9]*+[0-9]*)' )
+fi
+
 PRIMARY_WIDTH=$( echo $PRIMARY | sed  --expression="s/ /\n/g" | head -n1  )
 PRIMARY_HEIGHT=$( echo $PRIMARY | sed  --expression="s/ /\n/g" | head -n2 | tail -n1 )
 PRIMARY_START_X=$( echo $PRIMARY | sed  --expression="s/ /\n/g" | head -n3 | tail -n1  )
