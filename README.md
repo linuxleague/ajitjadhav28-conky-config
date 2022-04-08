@@ -20,7 +20,7 @@ then install
 If asked password enter it. It is required to create autostart entry.
 #### This script installs conky on ubuntu if not installed. On distroes other than debian-based, conky-all should be installed first.
 
-#### For Lenovo Legion 15ARH05 (Ryzen 5 + NVIDIA GPU) check branch ![lenovo_legion_15ARH05](https://github.com/ajitjadhav28/conky-config/tree/lenovo_legion_15ARH05), tested on Kubuntu 20.04
+#### For Lenovo Legion 15ARH05 (Ryzen 5 + NVIDIA GPU) check branch [lenovo_legion_15ARH05](https://github.com/ajitjadhav28/conky-config/tree/lenovo_legion_15ARH05), tested on Kubuntu 20.04
 
 # Demo
 ![gif](https://github.com/ajitjadhav28/conky-config/blob/master/demo.gif)
